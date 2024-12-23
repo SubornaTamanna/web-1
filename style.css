@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 25px;
+    width: 25px;
+}
+.navBar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    align-items: center;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    
+    justify-content: end;
+    background-color: brown;
+    
+
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+    display: block;
+}
+.menu li a:hover{
+    background-color: aqua;
+}
+.menu .dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+menu .dropdown{
+    display: none;
+}
+.menu li:hover .dropdown{
+    display: block;
+}
+.menu .dropdown li{
+    display: block;
+    position: relative;
+}
+.bannar{
+    height: 300px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./Verdissimo_flores_bonitas_CONT_02.webp);
+    background-size:  cover;
+    padding-left: 50px;
+    color: white;
+    font-size: 20px;
+    justify-content: start;
+    padding-top: 100px;
+}
+.herop{
+    margin-bottom: 20px;
+}
+.click{
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+.about{
+    display: flex;
+    height: 400px;
+    background-color: aliceblue;
+    margin-top:20px ;
+    margin-bottom: 20px;
+
+}
+.about img{
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.description{
+    padding-left: 30px;
+    padding-top: 100px;
+}
+.pera{
+    margin-bottom: 10px;
+}
+.more{
+    background-color: darkslategray;
+    color: white;
+}
+.maincard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 100px;
+    padding: 0 70px;
+    gap: 5px;
+}
+h4{
+    font-size: 30px;
+    padding-left: 70px;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardimg{
+    width: 300px;
+}
+.service{
+    font-size: 36px;
+    margin: 20px 0;
+
+}
+
+.stimg{
+    width: 70px;
+    border-radius: 50px;
+
+}
+.maiNcard{
+    background-color: rgb(252, 247, 247);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h6{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+
+}
+.up{
+    display: flex;
+    margin-bottom: 30px;
+}
+.mainCard{
+background-color: white;
+border-radius: 30px;
+padding: 30px;
+display: flex;
+gap: 30px;
+margin-bottom: 30px;
+}
+.footer{
+    display: flex;
+    gap: 20px;
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.Footer{
+    background-color: rgb(8, 8, 155);
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding: 15px;
+}
+
